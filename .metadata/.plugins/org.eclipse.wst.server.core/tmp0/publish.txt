@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Jan 19 22:04:38 GMT 2021
+org.eclipse.jst.jee.server\:/binary\:C\:\\eclipse\\mvc-crud\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\eclipse\\mvc-crud\\web-customer-tracker\\WebContent\\WEB-INF\\lib\\spring-web-5.2.9.RELEASE-sources.jar=WEB-INF/lib/spring-web-5.2.9.RELEASE-sources.jar

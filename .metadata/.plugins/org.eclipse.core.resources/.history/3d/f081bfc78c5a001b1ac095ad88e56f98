@@ -1,0 +1,33 @@
+package com.luv2code.springdemo.service;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.luv2code.springdemo.dao.CustomerDAO;
+import com.luv2code.springdemo.entity.Customer;
+
+@Service
+public class CustomerServiceImpl implements CustomerService {
+
+	
+	@Autowired
+	private CustomerDAO customerDAO;
+	
+	@Override		// transactional is moved here, since all actions on the entity class is done here
+	@Transactional // service layer is a facade design pattern - delegates the calls to different databases through a simple method such as this one
+	public List<Customer> getCustomers() {
+		return customerDAO.getCustomers();
+	}
+
+	@Override
+	@Transactional
+	public void saveCustomer(Customer theCustomer) {
+		// TODO Auto-generated method stub
+		customerDAO.saveCustomer(theCustomer);
+	}
+
+}

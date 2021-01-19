@@ -1,0 +1,8 @@
+127.0.0.1 - - [18/Jan/2021:19:25:22 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jan/2021:19:25:24 +0000] "GET /web-customer-tracker/TestDbServlet HTTP/1.1" 500 106
+0:0:0:0:0:0:0:1 - - [18/Jan/2021:19:25:56 +0000] "GET /web-customer-tracker/TestDbServlet HTTP/1.1" 200 118
+0:0:0:0:0:0:0:1 - - [18/Jan/2021:19:52:02 +0000] "GET /web-customer-tracker/ HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [18/Jan/2021:19:52:24 +0000] "GET /web-customer-tracker/customer/list HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [18/Jan/2021:19:53:45 +0000] "GET /web-customer-tracker/ HTTP/1.1" 404 682
+127.0.0.1 - - [18/Jan/2021:19:54:23 +0000] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [18/Jan/2021:19:54:38 +0000] "GET /web-customer-tracker/customer/list HTTP/1.1" 200 120
